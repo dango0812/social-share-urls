@@ -15,7 +15,7 @@ It provides a collection of **social media share URLs** and corresponding **icon
 | Facebook Messenger | https://www.facebook.com/dialog/send?link={url}&redirect_url={url}&app_id={appId}&to={to}                                                         | [Link](./README.md) |
 | Telegram           | https://t.me/share?url={url}                                                                                                                      | [Link](./README.md) |
 | WhatsApp           | https://api.whatsapp.com/send?text={text}                                                                                                         | [Link](./README.md) |
-| Tumblr             | https://api.tumblr.com/v2/share/stats?url={url}                                                                                                   | [Link](./README.md) |
+| Tumblr             | https://www.tumblr.com/share/link                                                                                                                 | [Link](./README.md) |
 | LinkedIn           | https://www.linkedin.com/feed?shareActive={shareActive}&text={text}                                                                               | [Link](./README.md) |
 | VK (ВКонтакте)     | https://vk.com/share.php?url={url}&title={title}&image={image}&noParse={noParse}&noVkLinks={noVkLinks}                                            | [Link](./README.md) |
 | Pinterest          | https://pinterest.com/pin/create/button/?url={url}&media={image}&description={description}<br>⚠️ video is only available to business account and has a capacity limit. | [Link](./README.md) |
