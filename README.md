@@ -8,7 +8,7 @@ It provides a collection of **social media share URLs** and corresponding **icon
 
 | Platform           | Share URL                                                                                                                                         | Details             |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-| Threads            | https://threads.net/intent/post?url={url}&title={title}                                                                                           | [Link](./README.md) |
+| Threads            | https://threads.net/intent/post?url={url}&title={title}                                                                                           | [Link](./details/Threads.md) |
 | Twitter (X)        | https://twitter.com/intent/tweet?url={url}&text={text}                                                                                            | [Link](./README.md) |
 | Reddit             | https://www.reddit.com/submit?url={url}&type={type}&title={title}                                                                                 | [Link](./README.md) |
 | Facebook           | https://www.facebook.com/sharer.php?u={url}                                                                                                       | [Link](./README.md) |
