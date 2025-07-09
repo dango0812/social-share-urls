@@ -62,3 +62,5 @@ const handleTwitterShare = () => {
     twitter share!
 </button>
 ```
+
+[![Hits](https://hits.sh/github.com/dango0812/social-share-urls.svg?label=thanks%20for%20visiting)](https://hits.sh/github.com/dango0812/social-share-urls/)
