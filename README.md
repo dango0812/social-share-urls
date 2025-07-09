@@ -4,6 +4,12 @@ This project is intended to help you integrate sharing on social media within we
 
 It provides a collection of **social media share URLs** and corresponding **icons** (`.png`, `.jpg`, `.svg`) to easily implement share functionality across popular platforms.
 
+Why install a full library when you only need to support two share services?
+
+You don’t need a massive library just to add simple social sharing!
+
+Keep it light skip the heavy libraries and just use simple share URLs.
+
 ## 📱 Supported Social Networks
 
 | Platform           | Share URL                                                                                                                                         | Details             |
@@ -24,3 +30,35 @@ It provides a collection of **social media share URLs** and corresponding **icon
 | Instagram          | ❌                                                                                                                                                |                     |
 | TikTok             | ❌                                                                                                                                                |                     |
 | YouTube            | ❌                                                                                                                                                |                     |
+
+
+## ✍️ How to use
+
+### Embed example
+```
+const searchParams = new URLSearchParams({
+    url: "https://github.com/dango0812", // share url
+    text: "hello, world"
+});
+const shareUrl = `https://twitter.com/intent/tweet?${searchParams.toString()}`;
+
+<a href={shareUrl} target="_blank" rel="noopener noreferrer">
+    twitter share!
+</a>
+```
+### Using a function example
+```
+const handleTwitterShare = () => {
+    const searchParams = new URLSearchParams({
+        url: "https://github.com/dango0812", // share url
+        text: "hello, world"
+    });
+    const shareUrl = `https://twitter.com/intent/tweet?${searchParams.toString()}`;
+
+    window.open(shareUrl, "_blank", "width=800,height=640,noopenner,noreferrer");
+};
+
+<button onClick={handleTwitterShare}>
+    twitter share!
+</button>
+```
