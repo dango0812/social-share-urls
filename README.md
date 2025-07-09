@@ -12,7 +12,7 @@ Keep it light skip the heavy libraries and just use simple share URLs.
 
 ## 📱 Supported Social Networks
 
-| Platform           | Share URL                                                                                                                                         | Details                           | Icon                             |
+| Platform           | Share URL                                                                                                                                         | Details                           | Icons                             |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|----------------------------------|
 | Threads            | https://threads.net/intent/post?url={url}&title={title}                                                                                           | [Link](./details/Threads.md)      | [Icon](./icons/Threads.md)      |
 | Twitter (X)        | https://twitter.com/intent/tweet?url={url}&text={text}                                                                                            | [Link](./details/Twitter.md)      | [Icon](./icons/Twitter.md)      |
