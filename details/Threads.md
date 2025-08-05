@@ -17,8 +17,8 @@ The post intent flow supports the following query string parameters.
 
 | Name | Description |
 |------|-------------|
-| `text` | *(Optional)*<br>The text that the post dialog should be prefilled with. |
-| `url`  | *(Optional)*<br>The URL for an optional link attachment. |
+| `text` | The text that the post dialog should be prefilled with. |
+| `url`  | The URL for an optional link attachment. |
 
 All parameter values should be encoded using [percent-encoding](https://datatracker.ietf.org/doc/html/rfc3986#section-2.1) ("URL encoding") so that the values can safely be passed via the URL.
 
