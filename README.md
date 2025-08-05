@@ -2,7 +2,7 @@
 
 This project is intended to help you integrate sharing on social media within web environment.
 
-It provides a collection of **social media share URLs** and corresponding **icons** (`.png`, `.jpg`, `.svg`) to easily implement share functionality across popular platforms.
+It provides a collection of **social media share URLs** and corresponding **icons** to easily implement share functionality across popular platforms.
 
 Why install a full library when you only need to support two share services?
 
@@ -12,24 +12,24 @@ Keep it light skip the heavy libraries and just use simple share URLs.
 
 ## 📱 Supported Social Networks
 
-| Platform           | Share URL                                                                                                                                         | Details                           | Icons                          |
-|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|-------------------------------|
-| Threads            | https://threads.net/intent/post?url={url}&title={title}                                                                                           | [Link](./details/Threads.md)      | [Link](./icons/Threads)       |
-| Twitter (X)        | https://twitter.com/intent/tweet?url={url}&text={text}                                                                                            | [Link](./details/Twitter.md)      | [Link](./icons/Twitter(X))    |
-| Reddit             | https://www.reddit.com/submit?url={url}&type={type}&title={title}                                                                                 | [Link](./details/Reddit.md)       | [Link](./icons/Reddit)        |
-| Facebook           | https://www.facebook.com/sharer.php?u={url}                                                                                                       | [Link](./details/Facebook.md)     | [Link](./icons/Facebook)      |
-| Facebook Messenger | https://www.facebook.com/dialog/send?link={url}&redirect_url={url}&app_id={appId}&to={to}                                                         | [Link](./details/Messenger.md)    | [Link](./icons/Messenger)     |
-| Telegram           | https://t.me/share?url={url}                                                                                                                      | [Link](./details/Telegram.md)     | [Link](./icons/Telegram)      |
-| WhatsApp           | https://api.whatsapp.com/send?text={text}                                                                                                         | [Link](./details/WhatsApp.md)     | [Link](./icons/WhatsApp)      |
-| Tumblr             | https://www.tumblr.com/share/link                                                                                                                 | [Link](./details/Tumblr.md)       | [Link](./icons/Tumblr)        |
-| LinkedIn           | https://www.linkedin.com/feed?shareActive={shareActive}&text={text}                                                                               | [Link](./details/LinkedIn.md)     | [Link](./icons/LinkedIn)      |
-| VK (ВКонтакте)     | https://vk.com/share.php?url={url}&title={title}&image={image}&noParse={noParse}&noVkLinks={noVkLinks}                                            | [Link](./details/VK.md)           | [Link](./icons/VK)            |
-| Pinterest          | https://pinterest.com/pin/create/button/?url={url}&media={image}&description={description}<br>⚠️ video is only available to business account and has a capacity limit. | [Link](./details/Pinterest.md)    | [Link](./icons/Pinterest)     |
-| Instapaper         | http://www.instapaper.com/hello2?url={url}&title={title}&description={description}                                                                | [Link](./details/Instapaper.md)   | [Link](./icons/Instapaper)    |
-| Email              | mailto:?subject={subject}&body={body}                                                                                                             | [Link](./details/Email.md)        | [Link](./icons/Email)         |
-| Instagram          | ❌                                                                                                                                                |                                   |                               |
-| TikTok             | ❌                                                                                                                                                |                                   |                               |
-| YouTube            | ❌                                                                                                                                                |                                   |                               |
+| Platform           | Share URL                                                                            | Details                         | Icons                          |
+| ------------------ | ------------------------------------------------------------------------------------ | ------------------------------- | ------------------------------ |
+| Threads            | [https://threads.net/intent/post](https://threads.net/intent/post)                   | [Link](./details/Threads.md)    | [Link](./icons/Threads)        |
+| Twitter (X)        | [https://twitter.com/intent/tweet](https://twitter.com/intent/tweet)                 | [Link](./details/Twitter.md)    | [Link](./icons/Twitter%28X%29) |
+| Reddit             | [https://www.reddit.com/submit](https://www.reddit.com/submit)                       | [Link](./details/Reddit.md)     | [Link](./icons/Reddit)         |
+| Facebook           | [https://www.facebook.com/sharer.php](https://www.facebook.com/sharer.php)           | [Link](./details/Facebook.md)   | [Link](./icons/Facebook)       |
+| Facebook Messenger | [https://www.facebook.com/dialog/send](https://www.facebook.com/dialog/send)         | [Link](./details/Messenger.md)  | [Link](./icons/Messenger)      |
+| Telegram           | [https://t.me/share](https://t.me/share)                                             | [Link](./details/Telegram.md)   | [Link](./icons/Telegram)       |
+| WhatsApp           | [https://api.whatsapp.com/send](https://api.whatsapp.com/send)                       | [Link](./details/WhatsApp.md)   | [Link](./icons/WhatsApp)       |
+| Tumblr             | [https://www.tumblr.com/share/link](https://www.tumblr.com/share/link)               | [Link](./details/Tumblr.md)     | [Link](./icons/Tumblr)         |
+| LinkedIn           | [https://www.linkedin.com/feed](https://www.linkedin.com/feed)                       | [Link](./details/LinkedIn.md)   | [Link](./icons/LinkedIn)       |
+| VK (ВКонтакте)     | [https://vk.com/share.php](https://vk.com/share.php)                                 | [Link](./details/VK.md)         | [Link](./icons/VK)             |
+| Pinterest          | [https://pinterest.com/pin/create/button/](https://pinterest.com/pin/create/button/) | [Link](./details/Pinterest.md)  | [Link](./icons/Pinterest)      |
+| Instapaper         | [http://www.instapaper.com/hello2](http://www.instapaper.com/hello2)                 | [Link](./details/Instapaper.md) | [Link](./icons/Instapaper)     |
+| Email              | mailto:                                                                              | [Link](./details/Email.md)      | [Link](./icons/Email)          |
+| Instagram          | ❌                                                                                    |                                 |                                |
+| TikTok             | ❌                                                                                    |                                 |                                |
+| YouTube            | ❌                                                                                    |                                 |                                |
 
 ## ✍️ How to use
 
