@@ -21,7 +21,7 @@ Keep it light skip the heavy libraries and just use simple share URLs.
 | Facebook Messenger | [https://www.facebook.com/dialog/send](https://www.facebook.com/dialog/send)         | [Link](./details/Messenger.md)  | [Link](./icons/Messenger)      |
 | Telegram           | [https://t.me/share](https://t.me/share)                                             | [Link](./details/Telegram.md)   | [Link](./icons/Telegram)       |
 | WhatsApp           | [https://api.whatsapp.com/send](https://api.whatsapp.com/send)                       | [Link](./details/WhatsApp.md)   | [Link](./icons/WhatsApp)       |
-| Tumblr             | [https://www.tumblr.com/share/link](https://www.tumblr.com/share/link)               | [Link](./details/Tumblr.md)     | [Link](./icons/Tumblr)         |
+| Tumblr             | [http://tumblr.com/widgets/share](http://tumblr.com/widgets/share)               | [Link](./details/Tumblr.md)     | [Link](./icons/Tumblr)         |
 | LinkedIn           | [https://www.linkedin.com/feed](https://www.linkedin.com/feed)                       | [Link](./details/LinkedIn.md)   | [Link](./icons/LinkedIn)       |
 | VK (ВКонтакте)     | [https://vk.com/share.php](https://vk.com/share.php)                                 | [Link](./details/VK.md)         | [Link](./icons/VK)             |
 | Pinterest          | [https://pinterest.com/pin/create/button/](https://pinterest.com/pin/create/button/) | [Link](./details/Pinterest.md)  | [Link](./icons/Pinterest)      |
